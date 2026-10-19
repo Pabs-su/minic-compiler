@@ -1,0 +1,6 @@
+# Archivos específicos del proyecto miniC
+minic           # El ejecutable principal que genera tu Makefile
+*.s             # Los archivos ensamblador MIPS de salida
+lex.yy.c        # El código C autogenerado por Flex
+*.tab.c         # El código C autogenerado por Bison
+*.tab.h         # Las cabeceras autogeneradas por Bison
