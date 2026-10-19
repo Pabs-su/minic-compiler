@@ -1,5 +1,5 @@
-comp: lex.yy.c anasin.tab.c anasin.tab.h listaSimbolos.c listaCodigo.c
-	gcc lex.yy.c anasin.tab.c listaSimbolos.c listaCodigo.c -lfl -o comp
+minic: lex.yy.c anasin.tab.c anasin.tab.h listaSimbolos.c listaCodigo.c
+	gcc lex.yy.c anasin.tab.c listaSimbolos.c listaCodigo.c -lfl -o minic
 lex.yy.c: analex.l anasin.tab.h
 	flex analex.l
 
